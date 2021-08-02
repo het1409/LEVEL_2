@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#menu{
+    margin-top: 400px;
+    width: 15%;
+    margin-left: 9px;
+    border: none;
+    background: white;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    transition: 0.6s;
+    
+
+}
+
+#home{
+    margin-top: 10px;
+    width: 15%;
+    margin-left: 9px;
+    border: none;
+    background: white;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    transition: 0.6s;
+    text-decoration: underline;
+}
+
+#about{
+    margin-top: 10px;
+    width: 15%;
+    margin-left: 9px;
+    border: none;
+    background: white;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    transition: 0.6s;
+    text-decoration: underline;
+}
+
+#contact{
+    margin-top: 10px;
+    width: 15%;
+    margin-left: 9px;
+    border: none;
+    background: white;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    transition: 0.6s;
+    text-decoration: underline;
+}
+
+#link{
+    margin-top: 10px;
+    width: 15%;
+    margin-left: 9px;
+    border: none;
+    background: white;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    transition: 0.6s;
+    text-decoration: underline;
+}
+
+#menu:hover, #home:hover, #about:hover, #contact:hover, #link:hover{
+    color: grey;
+}
+
+.content{
+    margin-left: 270px;
+    margin-top: -150px;
+}
+
+hr.line{
+    height: 1px;
+    background: 5px solid black;
+    background:none;
+}
